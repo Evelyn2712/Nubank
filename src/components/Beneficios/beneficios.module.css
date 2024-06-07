@@ -1,0 +1,40 @@
+.Beneficios{
+    background: #fff;
+}
+
+.beneficiosWrapper{
+    display: flex;
+    gap: 5rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.beneficiosConteiners{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.title{
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.beneficiosRow1, .beneficiosRow2, .beneficiosRow3{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media(max-width:600px){
+
+    .beneficiosWrapper{
+        flex-direction: column;
+    }
+
+    .title{
+        text-align: center;
+    }
+}

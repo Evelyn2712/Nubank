@@ -1,0 +1,43 @@
+.Hero {
+  background: rgb(160, 64, 250);
+  padding-top: 1.5rem;
+}
+
+.heroWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.heroContent{
+    color: #fff;
+}
+
+.heroContent h2{
+    font-size: 40px;
+    max-width: 20ch;
+}
+
+.heroContent p{
+    font-size: 1rem;
+    max-width: 42ch;
+    padding-top: 10px;
+}
+
+@media(max-width:600px){
+
+  .heroWrapper{
+    gap: 1rem;
+  }
+
+  .heroBanner{
+    width: 70%;
+  }
+
+  .heroContent h2{
+    font-size: 25px;
+  }
+
+}

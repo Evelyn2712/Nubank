@@ -1,0 +1,60 @@
+.conteudo2Wrapper{
+    display: flex;
+}
+
+.bloco1{
+    color: #000;
+    background: #fff;
+    border-radius: 8px;
+    width: 18rem;
+    height: 16rem;
+    padding-top: 1rem;
+}
+
+.text{
+    text-align: left;
+}
+
+.text h2{
+    padding: 14px;
+    font-size: 20px;
+}
+
+.text p{
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.icon1{
+    padding-left: 14px;
+}
+
+.buttonSaibaMais a{
+    color: blueviolet;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    line-height: 3;
+    padding-bottom: 0.625rem;
+}
+
+.buttonSaibaMais a::after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: blueviolet;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.buttonSaibaMais a:hover::after{
+    width: 100%;
+}
+
+
+

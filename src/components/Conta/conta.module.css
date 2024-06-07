@@ -1,0 +1,58 @@
+.Conta{
+    background: blueviolet;
+}
+
+.contaWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.contaText{
+    color: #fff;
+    width: 40%;
+    font-size: 1rem;
+}
+
+.contaText h2{
+    font-size: 40px;
+}
+
+.contaBotao{
+    padding-top: 1rem;
+}
+
+.contaBotao .botaoconta{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background: #000;
+    border-radius: 6.25rem;
+    height: 3rem;
+    width: 9rem;
+    border: none;
+    transition: .5s;
+  }
+  
+  .contaBotao .botaoconta:hover{
+    color: #000;
+    background: rgb(255, 255, 255);
+  }
+
+  @media(max-width:600px){
+
+    .contaWrapper{
+        flex-direction: column;
+        gap: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .contaText{
+        text-align: center;
+        width: 80%;
+    }
+  }
